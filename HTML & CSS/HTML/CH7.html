@@ -1,0 +1,85 @@
+<h1>CH 7: Form</h1>
+<h2>Form Structure</h2>
+<form action="http://www.exmple.com/subscribe.php" method="get">
+<p>This is where the form controls appear.</p>
+</form>
+<form action="http://www.exmple.com/subscribe.php" method="get">
+    <p>Username:
+        <input type="text" name="Username" size="15" maxlength="30" />
+    </p>
+    <p>Password
+        <input type="password" name="Password" size="15" maxlength="30" />
+    </p>
+    <p>What did you think of this gig?</p>
+    <textarea name="comments" cols="20" rows="5">Enter your comments</textarea>
+    <p>Please select your fav genre</br>
+    <input type="radio" name="genre" value="Rock" checked="checked">rock
+    <input type="radio" name="genre" value="Pop" checked="checked">Pop
+    <input type="radio" name="genre" value="Jazz" checked="checked">Jazz
+    </p>
+    <p>Please select your favourite music server(s):
+        <br/>
+        <input type="checkbox" name="service" value="itunes" checked="checked" />itunes
+        <input type="checkbox" name="service" value="spotify" checked="checked" />spotify
+        <input type="checkbox" name="service" value="soundcloud" checked="checked" />soundcloud
+    </p>
+    <p>What device do you listen music on?</p>
+    <select name="devices">
+        <option value="ipod">ipod</option>
+        <option value="radio">radio</option>
+        <option value="computer">computer</option>
+    </select>
+    <p>Do you play any of the following instruments?</p>
+    <select name="instruments" size="3" multiple="multiple">
+        <option value="guitar" selected="selected">Guitar</option>
+        <option value="drums" selected="selected">Drums</option>
+        <option value="keyboard" selected="selected">Keyboard</option>
+        <option value="bass" selected="selected">Bass</option>
+    </select>
+    <p>Upload your song in mp3 format:</p>
+    <input type="file" name="user-song" /><br />
+    <input type="submit" value="Upload" />
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="submit" name="subscribe" value="subscribe" />
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="image" src="C:\Users\talha\OneDrive\Desktop\HTML & CSS\HTML\Image gallery\img1.png" width="100" height="20" />
+    <button><img src="C:\Users\talha\OneDrive\Desktop\HTML & CSS\HTML\Image gallery\img1.png" alt="add" width="10" height="10">ADD</button>
+    <br /><input type="hidden" name="bookmark" value="lyrics" /> 
+    <br/>
+    <label>Age <input type="text" name="age"/></label>
+    <br/>
+    gender:
+    <input type="radio" id="female" name="gender" value="f">
+    <label for="female">female</label>
+    <input type="radio" id="male" name="gender" value="m">
+    <label for="male">male</label>
+    <label for="username">Username:</label>
+    <input type="text" name="username" required="required" />
+    <br/><label for="date">Enter Date</label>
+    <input type="date" name="depart" />
+    <input type="submit" value="submit" />
+    <p>Please enter your email addr:</p>
+    <input type="email" name="email"/>
+    <input type="submit" value="submit" />
+    <p>Please enter your website:</p>
+    <input type="url" name="url"/>
+    <input type="submit" value="submit" />  <br />
+    <input type="search" placeholder="Enter keyword" />
+    <input type="submit" value="search" />
+</form>
+<fieldset>
+    <legend>Contact list</legend>
+    <label>Email:
+        <br/>
+        <input type="text" name="email" />
+    </label><br/>
+    <label>Mobile: <br/>
+    <input type="text" name="mobile">
+    </label> <br/>
+    <label>Telephone: <br/>
+    <input type="text" name="telephone">
+    </label>
+</fieldset>
+
