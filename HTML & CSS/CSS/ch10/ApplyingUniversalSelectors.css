@@ -1,0 +1,42 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: azure ;
+}
+h1{
+    font-size: large;
+    font-variant: small-caps;
+    color: cadetblue;
+}
+h2,h3{
+    background-color: crimson;
+    color: white;
+}
+.class1{
+    font-weight: bold;
+    font-stretch: extra-condensed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: teal;
+}
+p.class1{
+    background-color: yellow;
+}
+#id1{
+    background-image: -moz-linear-gradient();
+    color: darkgoldenrod;
+}
+li>a{
+    text-decoration: none;
+    font-style: oblique;
+    color: darkred;
+}
+i p{
+    color: pink;
+}
+h1+p{
+    background-color: silver;
+    color: tomato;
+}
+ul~li{
+    font-variant-caps: all-small-caps;
+    color: lightcoral;
+}
