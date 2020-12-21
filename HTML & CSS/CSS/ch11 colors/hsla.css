@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(200, 200, 200);
+}
+h1{
+    background-color: #ee3e80;
+    background-color: hsla(10, 10%, 60%);
+    color: white;
+    color: hsla(hue, saturation, lightness,0.5 );
+}
+h2{
+    background-color: darkcyan;
+    background-color: hsla(100, 50%, 10%);
+    color: hsla(hue, saturation, lightness,0.5 );
+}
+p{
+    background-color: white;
+    background-color: hsla(0, 10%, 50%;
+    color: hsla(hue, saturation, lightness,0.5 );
+}

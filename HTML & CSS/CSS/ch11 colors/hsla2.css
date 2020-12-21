@@ -1,0 +1,43 @@
+body{
+    background-color: blue;
+}
+h1{
+    background-color: chocolate;
+}
+h2{
+    background-color: crimson;
+}
+p{
+    background: cyan;
+}
+table{
+    background-color:silver;
+}
+#m1{
+    background-color: rgb(0, 128, 0);
+    background-color: hsla(hue, saturation, lightness, o.92);
+}
+#m2{
+    background-color: rgba(0, 128, 0, 0.966);
+    background-color: hsla(hue, saturation, lightness, 0.84);
+}
+#m3{
+    background-color: rgba(0, 128, 0, 0.897);
+    background-color: hsla(hue, saturation, lightness, 0.76);
+}
+#m4{
+    background-color: rgba(0, 128, 0, 0.815);
+    background-color: hsla(hue, saturation, lightness, 0.68);
+}
+#m5{
+    background-color: rgba(0, 128, 0, 0.705);
+    background-color: hsla(hue, saturation, lightness, 0.60);
+}
+#m6{
+    background-color: rgba(0, 128, 0, 0.562);
+    background-color: hsla(hue, saturation, lightness, 0.52);
+}
+#m7{
+    background-color: rgba(0, 128, 0, 0.425);
+    background-color: hsla(hue, saturation, lightness, 0.44);
+}
