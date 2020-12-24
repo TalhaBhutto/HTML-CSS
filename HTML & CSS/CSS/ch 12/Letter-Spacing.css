@@ -1,0 +1,8 @@
+h1,h2{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.credits{
+    font-weight: bold;
+    word-spacing: 1em;
+}
