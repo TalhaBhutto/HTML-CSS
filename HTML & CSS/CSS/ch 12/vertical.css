@@ -1,0 +1,16 @@
+img{
+    width: 300px;
+    height: 300px;
+}
+#one{
+    vertical-align: text-top;
+}
+#two{
+    vertical-align: baseline;
+}
+#three{
+    vertical-align: text-bottom;
+}
+p{
+    vertical-align: text-top;
+}
