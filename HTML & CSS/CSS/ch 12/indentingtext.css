@@ -1,8 +1,8 @@
 h1{
-    background-image:image("12.png");
+    background-image:cross-fade();
     background-repeat: no-repeat;
     text-indent: -9999px;
 }
 .credits{
-    text-indent: 20px;
+    text-indent: 200px;
 }
