@@ -1,5 +1,5 @@
 h1{
-    background-image:cross-fade();
+    background-image:url("images/logo.gif");
     background-repeat: no-repeat;
     text-indent: -9999px;
 }
