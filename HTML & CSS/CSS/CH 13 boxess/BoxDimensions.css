@@ -1,10 +1,8 @@
-div.box{
+div.box {
     height: 300px;
     width: 300px;
-    background-color: crimson;
-}
-p{
+    background-color: #bbbbaa;}
+    p {
     height: 75%;
     width: 75%;
-    background-color: darkgray;
-}
+    background-color: #0088dd;}
