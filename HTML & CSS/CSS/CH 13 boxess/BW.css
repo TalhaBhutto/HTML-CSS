@@ -1,0 +1,9 @@
+p.one {
+    border-width: 20px; color: crimson;}
+    p.two {
+    border-width: thick;}
+    p.three {
+    border-width: 1px 4px 12px 4px;}
+body{
+    background-color: cyan;
+}
