@@ -1,0 +1,18 @@
+p.one {
+    border: 1px #aa3322 solid;
+    border-top-left-radius: 80px 50px;
+    -moz-border-radius-top-left: 80px 50px;
+    -webkit-border-radius-top-left: 80px 50px;}
+    p.two {
+        border: 1px #aa3322 solid;
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    -moz-border-radius: 1em 4em 1em 4em
+     / 2em 1em 2em 1em;
+    -webkit-border-radius: 1em 4em 1em 4em
+     / 2em 1em 2em 1em;}
+    p.three {
+        border: 1px #aa3322 solid;
+    padding: 0px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;}
