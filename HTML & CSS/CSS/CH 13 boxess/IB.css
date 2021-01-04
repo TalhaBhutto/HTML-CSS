@@ -1,0 +1,14 @@
+p.one {
+    -moz-border-image: url("rhodes.jpg")
+     11 11 11 11 stretch;
+    -webkit-border-image: url("images/dots.gif")
+     11 11 11 11 stretch;
+    border-image:url("rhodes.jpg")
+     11 11 11 11 stretch;}
+    p.two {
+    -moz-border-image: url("images/dots.gif")
+     11 11 11 11 round;
+    -webkit-border-image: url("images/dots.gif")
+     11 11 11 11 round;
+    border-image: url("images/dots.gif")
+     11 11 11 11 round;}
