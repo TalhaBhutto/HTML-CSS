@@ -1,0 +1,14 @@
+div {
+    border-bottom: 1px solid #efefef;
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 260px;}
+    .title {
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;}
+    .radio-buttons label {
+    float: none;}
+    .submit {
+    text-align: right;}
