@@ -2,9 +2,20 @@ body {
     width: 750px;
     font-family: Arial, Verdana, sans-serif;
     color: #665544;}
-    p {
+    p.left {
     width: 230px;
     float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;}
+p.center {
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;}
+p.right {
+    width: 230px;
+    float:right;
     margin: 5px;
     padding: 5px;
     background-color: #efefef;}
