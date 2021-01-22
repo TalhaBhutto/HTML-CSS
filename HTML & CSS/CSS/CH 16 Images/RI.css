@@ -1,6 +1,7 @@
 body {
     background-image: url("images/header.gif");
-background-repeat: repeat-a;}
+background-repeat:repeat-x;
+background-attachment: fixed;}
 img.align-center {
     display: block;
     margin: 0px auto;}
