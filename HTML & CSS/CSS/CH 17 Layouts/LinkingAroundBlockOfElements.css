@@ -4,3 +4,10 @@ img{
     max-height: 5 cm;
     min-height: 3 cm;
 }
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    color: chartreuse;
+}
